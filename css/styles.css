@@ -33,6 +33,7 @@
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    height: 350px;
 }
 .header {
     width: 900px;
@@ -45,6 +46,7 @@
 .photo-grid-container {
     display: flex;
     justify-content: center;
+    
 }
 .photo-grid {
     width: 900px;
@@ -64,6 +66,7 @@
     padding: 20px 0;
     display: flex;
     justify-content: center;
+    height: 350px;
 }
 .signup-container {
     color: #fff;
@@ -71,7 +74,7 @@
     padding: 20px 0;
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: 350px;
 }
 .footer-container {
     color: #fff;
@@ -80,4 +83,7 @@
     display: flex;
     justify-content: center;
     height: 100px;
+}
+.subscribe {
+    color: #1F2937;
 }
