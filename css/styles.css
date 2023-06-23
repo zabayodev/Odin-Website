@@ -59,6 +59,15 @@
 .header h1, p {
     color: white;
 }
+.header button {
+    background-color: blue;
+    width: 90px;
+    border: none;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+}
 .random-container { 
     display: flex;
     justify-content: center;
@@ -129,6 +138,12 @@
     display: flex;
     justify-content: center;
     height: 350px;
+}
+.quota-container h2 {
+    /* color: black; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    text-align: right;
+    font-family: 36px light italic #1F2937;
 }
 .signup-container {
     color: #fff;
