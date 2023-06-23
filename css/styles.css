@@ -11,6 +11,12 @@
     justify-content: center;
     font-weight: 48px extra-bold #F9FAF8;
 }
+.menu-container a {
+    color: white;
+    font: 100;
+    font-size: x-large;
+    text-decoration: none;
+}
 .menu {
     /* border: 1px solid #fff;*/ 
     width: 900px;
@@ -23,8 +29,9 @@
     justify-content: flex-end;
 }
 .headerlogo img {
-    width: 60px;
-    height: 50px;
+    width: 100px;
+    height: 90px;
+    border-radius: 20px;
 }
 .login {
     margin-left: 20px;
@@ -39,6 +46,9 @@
     justify-content: center;
     height: 350px;
 }
+/* .header-container h1 {
+    margin-right: 30px;
+} */
 .header {
     width: 900px;
     height: 300px;
@@ -46,7 +56,10 @@
     justify-content: space-between;
     align-items: center;
 }
-.random-container {
+.header h1, p {
+    color: white;
+}
+.random-container { 
     display: flex;
     justify-content: center;
 }
@@ -68,28 +81,40 @@
     margin-bottom: 15px;
 }
 .card-1 {
-    background-image: url(../images/one.svg);
-    height: 170px;
+    background-image: url(../images/nature1.jpg);
+    height: 200px;
     background-size: cover;
     border-radius: 15px;
 }
 .card-2 {
-    background-image: url(../images/two.svg);
-    height: 170px;
+    background-image: url(../images/nature5.jpg);
+    height: 200px;
     background-size: cover;
     border-radius: 15px;
 }
 .card-3 {
-    background-image: url(../images/three.svg);
-    height: 170px;
+    background-image: url(../images/nature3.jpg);
+    height: 200px;
     background-size: cover;
     border-radius: 15px;
 }
 .card-4 {
-    background-image: url(../images/four.svg);
-    height: 170px;
+    background-image: url(../images/nature4.jpg);
+    height: 200px;
     background-size: cover;
     border-radius: 15px;
+}
+.card-images {
+    background-color: aqua;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.card-5 {
+    background-color: white;
+    height: 250px;
+    width: 500px;
+    background-image: url(../images/nature.jpg);
+    margin: 30px;
 }
 
 .quota-container {
