@@ -71,13 +71,18 @@
 }
 .card {
     background-color: white;
-    width: 250px;
+    width: 200px;
     height: 300px;
     margin: 10px;
 }
+.card p {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
 .card-image {
     background-color: aqua;
-    height: 200px;
+    height: 250px;
     margin-bottom: 15px;
 }
 .card-1 {
