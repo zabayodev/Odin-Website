@@ -67,6 +67,8 @@
     height: 30px;
     border-radius: 5px;
     font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 .random-container { 
     display: flex;
@@ -162,6 +164,12 @@
     position: inherit;
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+}
+.action {
+    background-color: blue;
+    width: 50%;
+    height: 150px;
 }
 .actions h1 {
     margin-left: 30px;
@@ -171,18 +179,27 @@
 .actions h5 {
     margin-left: 30px;
 }
-.actions button {
-    display: flex;
+.buttonz {
     background-color: blue;
-    width: 90px;
-    color: white;
-    height: 30px;
+    width: 50%;
+    float: right;
+    height: 150px;
+}
+
+.buttonz button {
+    background-color: blue;
+    width: 100px;
+    height: 40px;
     border-radius: 5px;
     font-size: 16px;
     text-align: center;
-    margin-left: 550px;
     border: 1px solid white;
-    
+    color: white;
+    margin-top: 15%;
+    left: 50%;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
 }
 .footer-container {
     color: #fff;
